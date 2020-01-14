@@ -14,17 +14,17 @@
 	scanf("%d", &menu_number_choice);
 
 
-	printf("\n\n")
+	printf("\n\n");	
 
-	switch(menu_number_choice)
+	switch (menu_number_choice)
 	{
-		case 1: printf("Obsviously You made the best choice!");
-		case 2: printf("You look really hungry!\n");
-		case 3: printf("This is full of sugar dude!\n");
-		case 4: printf("So fresh So Clean !\n");
+		case 1: printf("Obsviously You made the best choice!");break;		
+		case 2: printf("You look really hungry!\n"); break;
+		case 3: printf("This is full of sugar dude!\n"); break;
+		case 4: printf("So fresh So Clean !\n"); break;
 	}
 
-	printf("\n\n")
+	printf("\n\n");
 
 	return 0;
 }
