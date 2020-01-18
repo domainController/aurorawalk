@@ -10,7 +10,7 @@
 	printf("2.Royal Cheese\n");
 	printf("3.Mac Flurry\n");
 	printf("4.Sundae Vanilla\n");
-	printf("\nPlease be nice choose something fresh\n !!");
+	printf("\nPlease be nice choose something fresh !!\n");
 	scanf("%d", &menu_number_choice);
 
 
