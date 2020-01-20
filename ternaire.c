@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-	age = (majeur) ? 18 : 17;
+	int age = 18;
+	int majeur = 1;
 	int main(int argc[], char *argv[])
 {
 	if (majeur)
