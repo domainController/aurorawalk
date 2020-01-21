@@ -18,26 +18,32 @@
     {
 	printf("Felicitations Vous avez trouve le bon salaire\n");
     }
-    else
+    else if (salaire_mystere != estimation)
     {
-	    while (salaire_mystere != estimation)
+	    while (1)
 	    {
 		if (estimation > salaire_mystere)
 		{	    
 			printf("Le salaire est inferieur a ce montant !\n");
-			scanf("%d", &estimation);
 		}
 
 		else (estimation < salaire_mystere)
 		{	    
 			printf("Le salaire est superieur a ce montant\n");
-			scanf("%d", &estimation);
 		}
 	    }
-   
     }
+    else 
+    { 
+	printf("Felicitations Vous avez trouve le bon salaire\n");
+    }
+    return 0;
   } 
 
 /* tout fonctionne correctement sauf le "Felicitations ne passe pas"
  * Dans la correction est utilise un DO/While
+ * Ne fonctionne plus apres car j'ai tout change comme le Felicitation
+ * ne passait pas. Maintenant j'ai 3 boucles imbriquees...
+ * C'est la merde
+ *
  */
