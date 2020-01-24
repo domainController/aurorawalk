@@ -3,9 +3,7 @@
 
 	double xe(double euros)
 {	
-	double fr = 0;
-	fr =  6.55957 * euros ;
-	return fr;
+	double fr =  6.55957 * euros ;
 }
 
 	double main( double argc[], char **argv[])
